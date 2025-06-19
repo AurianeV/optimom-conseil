@@ -1,0 +1,77 @@
+.navlinks {
+
+    .navbar_logo {
+        margin:auto;
+    }
+    
+    position: fixed; 
+    top: 0;
+    left:0;
+    width: 100%; 
+    height: 100vh; 
+    color: rgb(0, 0, 0);
+    align-items: center;
+    z-index: 1000;
+    padding: 30px;
+    background: white; 
+
+  
+    .navlinks_items {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      padding:60px;
+  
+      .ligne_navlinks {
+        width: 90%;
+        margin-left: 0;
+        color:#151f55;
+      }
+  
+      li {
+        margin: 2rem 0;
+  
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          text-transform: uppercase;
+          color:#151f55;
+  
+          &:hover {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  
+
+  
+    @media screen and (min-width: 1024px) { 
+      height: auto;
+      width: 100%;
+      position: static;
+  
+      .navlinks_items {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+  
+        li {
+          margin-right: 30px;
+  
+          .li_reservation {
+            display: none;
+          }
+        }
+  
+        hr {
+          display: none;
+        }
+      }
+  
+      .logo_insta, .logo_tel {
+        display: none;
+      }
+    }
+  }
+  

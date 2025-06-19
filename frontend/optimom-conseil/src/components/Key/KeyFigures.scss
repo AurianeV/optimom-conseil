@@ -1,0 +1,67 @@
+.keyFigures {
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+
+    @media (min-width: 600px) {
+      padding: 0;
+    }
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #1c1c1c;
+    }
+  
+    .figuresGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+  
+      @media (min-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  
+    .figureCard {
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.142);
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      .icon {
+        font-size: 2.5rem;
+        color: #151f55;
+        margin-bottom: 1rem;
+      }
+  
+      .number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 0.5rem;
+      }
+  
+      .label {
+        font-size: 1rem;
+        color: #555;
+        font-weight: 500;
+      }
+
+      @media (min-width: 600px) {
+        padding: 2rem 1rem;
+      }
+    }
+  }
+  

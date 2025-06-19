@@ -26,7 +26,7 @@ function NavLinks() {
         </li>
         <hr className="ligne_navlinks"></hr>
         <li>
-          <NavLink to="/forfaits">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
         <hr className="ligne_navlinks"></hr>
         <li><a className="li_reservation" href="https://www.optimom-conseil.com/index.php">Espace client</a></li>

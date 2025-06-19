@@ -1,0 +1,21 @@
+.img_infographie_mobile {
+    margin-top:150px;
+    width:100%;
+
+    @media screen and (min-width: 1024px) {
+        display:none;
+    }
+    @media screen and (min-width: 600px) and (max-width: 1024px){
+        width:75%;
+    }
+}
+
+.img_infographie_desktop {
+    width:100%;
+
+    @media screen and (max-width: 1024px) {
+        display:none;
+    }
+
+   
+}

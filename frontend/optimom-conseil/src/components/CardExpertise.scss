@@ -1,0 +1,54 @@
+.CardSection {
+    padding: 40px 20px;
+  
+    .section_text_right,
+    .section_text_left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+  
+      .text {
+        width: 100%;
+  
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 15px;
+          line-height: 1.5;
+        }
+      }
+    }
+  
+    // TABLET + DESKTOP styles (à partir de 768px)
+    @media screen and (min-width: 768px) {
+      .section_text_right,
+      .section_text_left {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+  
+        img {
+          width: 50%;
+        }
+  
+        .text {
+          width: 50%;
+        }
+      }
+  
+      .section_text_left {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+  

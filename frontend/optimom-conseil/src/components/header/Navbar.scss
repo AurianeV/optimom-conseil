@@ -16,6 +16,8 @@ header {
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+
     }
   
   
@@ -76,11 +78,16 @@ header {
     }
   
     .navbar-desktop {
+
+      .navbar-container {
+        justify-content: flex-end;
+      }
+
       margin:auto;
       max-width: 1280px;
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       text-align: center;
       padding: 0px;
   
@@ -91,20 +98,52 @@ header {
         align-items: center;
         list-style: none;
         padding:0px;
-        gap:30px;        border:none;
-  
-  
-        a {
-          text-decoration: none;
-          color: #110902;
-          font-weight: bold;
-          transition: color 0.3s ease;
+        gap:30px;        
+        border:none;
+        display: flex;
+        gap:20px;
+        
+        
+        .navbar_clientEspace{
+          padding: 0 10px;
+          border-left: 2px solid #ccc;
+
+          &:first-child {
+            border-left: none;
+          }
         }
   
-        a:hover {
-          color: #b3b3b2;
-          font-weight: bold;
+        li {
+          position: relative;
+      
+          &:not(.navbar_clientEspace) a {
+            position: relative;
+            text-decoration: none;
+            color: black;
+      
+            &::after {
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: -5px;
+              width: 0;
+              height: 2px;
+              background-color: #b3b3b2; 
+              transition: width 0.3s ease;
+            }
+      
+            &:hover::after {
+              width: 100%;
+            }
+          }
+
+          a {
+            font-weight: bold;
+
+          }
         }
+  
+        
         
   
       }
@@ -123,7 +162,7 @@ header {
       position: relative;
     }
   
-    /* -------- RÉSERVATION (DROITE) -------- */
+    /* -------- ESPACE CLIENT -------- */
     .navbar_clientEspace {
       display:flex;
       align-items: center;

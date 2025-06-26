@@ -20,7 +20,7 @@ export default function KeyFigures() {
     },
     {
       icon: <FaUsers />,
-      number: "300",
+      number: "500",
       label: "investisseurs nous font confiance"
     },
     {

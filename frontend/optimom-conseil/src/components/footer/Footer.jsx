@@ -10,7 +10,7 @@ function Footer () {
 
         <div className="footer-desktop-logo-acces">
           
-          <a href="/"><img className="logo_footer_desktop" src="/logos/Symbole-Optimom-bleu.png"/></a>
+          <a href="/"><img className="logo_footer_desktop" src="/logos/logo-principal-bleu.png"/></a>
 
           <div className="footer-desktop-contact">
             <h3>CONTACT</h3>
@@ -20,7 +20,7 @@ function Footer () {
           </div>
 
           <div className="footer-desktop-access">
-            <h3>ADRESSES</h3>
+            <h3>ADRESSE</h3>
             <p>SAS OPTIMOM CONSEIL</p>
             <p>272 rue du Faubourg Saint Honoré, </p>
             <p>75008 Paris</p><br></br>   
@@ -74,17 +74,20 @@ function Footer () {
 
         <hr className="trait_footer"></hr>
 
-        <h3>ADRESSES</h3>
+        <h3>ADRESSE</h3>
         <p>SAS OPTIMOM CONSEIL</p>
         <p>272 rue du Faubourg Saint Honoré,</p>
         <p>75008 Paris</p><br></br>     
 
         <hr className="trait_footer"></hr>
 
-        <h3>DOCUMENTATION LÉGALE</h3>
-        <p><a href="">Attestation d'adhésion CNCEF Patrimoine 2025</a></p>
-        <p><a href="">Attestation d'assurance RCP</a></p>
-        <p><a href="">Attestation d'inscription ORIAS</a></p>
+
+        <details>
+          <summary>DOCUMENTATION LÉGALE</summary>
+            <p><a href="">Attestation d'adhésion CNCEF Patrimoine 2025</a></p>
+            <p><a href="">Attestation d'assurance RCP</a></p>
+            <p><a href="">Attestation d'inscription ORIAS</a></p>
+        </details>
 
         <hr className="trait_footer"></hr>
 

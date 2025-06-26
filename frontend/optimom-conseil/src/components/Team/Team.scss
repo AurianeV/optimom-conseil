@@ -3,6 +3,8 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 3em;
     padding: 40px;
+    align-items: start; // 👈 C’est ça qui empêche les cartes de s’étirer
+
 
     @media (min-width: 600px) {
         grid-template-columns: repeat(2, 1fr);

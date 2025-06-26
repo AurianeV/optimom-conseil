@@ -10,7 +10,7 @@ function Equipe () {
             <Navbar/>
             <Background 
             backgroundImage="/home_back.jpg"
-            children="Texte presentation"
+            children="Notre équipe"
             />
             <Team/>
             <Footer />

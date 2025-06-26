@@ -1,26 +1,30 @@
 .cardPerson {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 
-    &:hover {
-        transform: translateY(-5px);
-    }
+  &.active {
+    transform: translateY(-5px);
+  }
 
-    hr {
-        margin-top:-10px;
-        width:50%;
-    }
+  hr {
+    margin-top: -10px;
+    width: 50%;
+  }
 
-    h3 {
-        margin-top: 0;
-    }
+  h3 {
+    margin-top: 0;
+  }
 
-    details {
-        margin-top: 10px;
+  details {
+    margin-top: 10px;
+
+    p {
+      text-align: left;
     }
+  }
 }

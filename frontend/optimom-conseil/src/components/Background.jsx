@@ -7,7 +7,7 @@ function Background({ backgroundImage, children }) {
             style={{ backgroundImage: `url(${backgroundImage})` }}
         >
             <div className="background_text">
-                {children}
+                <h1>{children}</h1>
             </div>
         </section>
     )

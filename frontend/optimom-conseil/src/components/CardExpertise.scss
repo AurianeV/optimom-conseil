@@ -1,5 +1,5 @@
 .CardSection {
-    padding: 40px 20px;
+    padding: 10px 40px;
   
     .section_text_right,
     .section_text_left {
@@ -7,6 +7,7 @@
       flex-direction: column;
       align-items: center;
       gap: 30px;
+      text-align: left;
   
       img {
         width: 100%;

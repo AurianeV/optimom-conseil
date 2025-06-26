@@ -39,7 +39,14 @@ function Navbar () {
             </nav>
 
             {/* Version Desktop */}
-            <nav className="navbar-desktop">       
+            <nav className="navbar-desktop">   
+                 {/* Logo */}
+                 <div className="navbar_logo-desktop">
+                    <NavLink to="/">
+                        <img className="logo-desktop" src="/logos/logo-principal-bleu.png" alt="Logo Optimom conseil" />
+                    </NavLink>
+                </div>
+
                 <div className="navbar-container">
                     <div className="navbar-desktop-navlinks">
                         <ul className="nav-links">
@@ -52,24 +59,16 @@ function Navbar () {
                             <li>
                                 <NavLink to="/expertises">Nos expertises</NavLink>
                             </li>
-                        </ul>
-                    </div>
-
-                    {/* Logo */}
-                    <div className="navbar_logo-desktop">
-                            <NavLink to="/">
-                            <img className="logo-desktop" src="/logos/logo-principal-bleu.png" alt="Logo Optimom conseil" />
-                            </NavLink>
-                    </div>
-
-                    <div className="navbar_clientEspace">
-                        <a href="https://www.optimom-conseil.com/index.php"> <button className="client">Espace client</button></a>
-
-                        <li className="li_contact">
+                            <li >
                             <NavLink to="/contact">Contact</NavLink>
-                        </li>
-                    </div>
+                            </li>
+                            <li className="navbar_clientEspace">
+                                <a href="https://www.optimom-conseil.com/index.php"> <button className="client">Espace client</button></a>
+                            </li>
+                        </ul>
                         
+                    </div>
+       
                 </div>
             </nav>
 

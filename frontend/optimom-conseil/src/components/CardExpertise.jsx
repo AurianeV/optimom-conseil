@@ -12,7 +12,7 @@ function CardExpertise ({expertise, text, textRight, img}) {
                         <img src={img}/>
                         <div className="text">
                             <h3>{expertise}</h3>
-                            <p>{text}</p>
+                            {text}
                         </div>
                     </div>
             </section>

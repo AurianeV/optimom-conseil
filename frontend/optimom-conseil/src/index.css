@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.8em;
   line-height: 1.1;
 }
 
@@ -55,6 +55,17 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.presentation_company {
+  padding:40px;
+
+  p {
+    text-align: left;
+  }
+  @media screen and (min-width:1024px) {
+    padding:40px;
+  }
 }
 
 @media (prefers-color-scheme: light) {

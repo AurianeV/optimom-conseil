@@ -7,7 +7,7 @@ function CardTeam ({name, job, description}) {
             <hr></hr>
             <p>{job}</p>
             <details>
-                <summary>Biographie</summary>
+                <summary><strong>Biographie</strong></summary>
                 <p>{description}</p>
             </details>
         </section>

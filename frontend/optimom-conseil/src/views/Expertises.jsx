@@ -21,11 +21,11 @@ function Expertises () {
                 <>
                   <p>Nous mobilisons l’ensemble des dispositifs existants, notamment :</p>
                   <ul>
-                    <li><strong>Crédit d’impôt</strong> (IR ou IS) – Articles 244 quater W et X du CGI</li>
+                    <li><strong>Crédit d’impôt</strong> (IR ou IS) – Article 244 quater W du CGI</li>
                     <li><strong>Réductions d’impôt</strong> – Articles 199 undecies B du CGI</li>
                   </ul>
                   <p>
-                    Nous intervenons dans le montage, la structuration et le suivi de dossiers d’aide fiscale à l’investissement qui nécessitent un <strong>agrément préalable</strong> délivré par la Direction générale des finances publiques.
+                    Nous intervenons dans le montage, la structuration et le suivi de dossiers d’aide fiscale à l’investissement qui nécessitent un <strong>agrément fiscal préalable</strong> délivré par la Direction générale des finances publiques.
                   </p>
                 </>
               }
@@ -43,7 +43,7 @@ function Expertises () {
             />
             <CardExpertise
             img="/img3_expertise.png"
-            expertise="Recherche et obtention de subventions"
+            expertise="Recherche de subventions"
             text={
                 <>
                   <p>Nous prenons en charge la recherche des subventions auxquelles les entreprises qui investissent sont éligibles.
@@ -66,6 +66,7 @@ function Expertises () {
               }
             textRight={false}
             />
+            <h2>Schéma type d’une opération</h2>
             <Infographie/>
             <Footer/>
         </>

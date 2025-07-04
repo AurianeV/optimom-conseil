@@ -8,7 +8,7 @@ function Contact () {
         <>
             <Navbar/>
             <Background
-            backgroundImage="/background_expertises.jpg"
+            backgroundImage="/background_contact.jpg"
             children="Contactez-nous"
             />
             <ContactForm/>

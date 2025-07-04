@@ -4,9 +4,6 @@ function CardExpertise ({expertise, text, textRight, img}) {
 
     return (
 
-        
-        <>
-
             <section className="CardSection">
                 <div className={textRight ? "section_text_right" : "section_text_left"}>
                         <img src={img}/>
@@ -17,7 +14,7 @@ function CardExpertise ({expertise, text, textRight, img}) {
                     </div>
             </section>
             
-        </>
+        
     )
 }
 

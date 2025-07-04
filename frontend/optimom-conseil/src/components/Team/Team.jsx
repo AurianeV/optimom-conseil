@@ -32,8 +32,6 @@ function Team() {
 
     return (
         <>
-            <h1>Notre équipe</h1>
-            <p>TEXTE BLABLA</p>
             <div className="teamWrapper">
                 {teamData.map((person, index) => (
                     <CardTeam

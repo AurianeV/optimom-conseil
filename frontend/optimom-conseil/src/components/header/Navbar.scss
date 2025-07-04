@@ -105,11 +105,15 @@ header {
         
         
         .navbar_clientEspace{
-          padding: 0 10px;
+          padding-left:10px;
           border-left: 2px solid #ccc;
 
           &:first-child {
             border-left: none;
+          }
+
+          .client {
+            margin:0px;
           }
         }
   
@@ -127,7 +131,7 @@ header {
               left: 0;
               bottom: -5px;
               width: 0;
-              height: 2px;
+              height: 3px;
               background-color: #b3b3b2; 
               transition: width 0.3s ease;
             }
@@ -139,6 +143,7 @@ header {
 
           a {
             font-weight: bold;
+            font-size:20px;
 
           }
         }
@@ -155,7 +160,7 @@ header {
     }
   
     .logo-desktop {
-      width: 180px;
+      width: 210px;
     }
   
     .nav-links li {

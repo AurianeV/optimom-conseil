@@ -4,6 +4,7 @@ import HomePage from './views/HomePage'
 import Equipe from './views/Equipe'
 import Expertises from './views/Expertises'
 import Contact from './views/Contact'
+import MentionsLegalesPage from './views/MentionsLegalesPage'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
         <Route path="/equipe" element={<Equipe/>} />
         <Route path="/expertises" element={<Expertises/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/mentions-legales" element={<MentionsLegalesPage/>} />
+
 
       </Routes>
       

@@ -35,12 +35,12 @@ function Footer () {
         <div className="footer-lien">
             <div>
               <h3>DOCUMENTATION LÉGALE</h3>
-                <p><a href="">Attestation d'adhésion CNCEF Patrimoine 2025</a></p>
+                <p><a href="">Attestation d'adhésion CNCEF Patrimoine</a></p>
                 <p><a href="">Attestation d'assurance RCP</a></p>
                 <p><a href="">Attestation d'inscription ORIAS</a></p>
             </div>
           <div className="footer-desktop-infos">
-             <h3>INFOS LÉGALES</h3>
+             <h3>INFORMATIONS LÉGALES</h3>
               <ul>
                 <li><a href="/mentions-legales">Mentions légales</a></li>
               </ul>
@@ -55,7 +55,7 @@ function Footer () {
                 <NavLink to="/expertises">Nos expertises</NavLink>
                 </li>
                 <li>
-                <NavLink to="/contact">Contact/FAQ</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
                 </li>      
             </ul>
             </div>     
@@ -84,7 +84,7 @@ function Footer () {
 
         <details>
           <summary>DOCUMENTATION LÉGALE</summary>
-            <p><a href="">Attestation d'adhésion CNCEF Patrimoine 2025</a></p>
+            <p><a href="">Attestation d'adhésion CNCEF Patrimoine</a></p>
             <p><a href="">Attestation d'assurance RCP</a></p>
             <p><a href="">Attestation d'inscription ORIAS</a></p>
         </details>
@@ -92,7 +92,7 @@ function Footer () {
         <hr className="trait_footer"></hr>
 
         <details>
-          <summary>INFOS LÉGALES</summary>
+          <summary>INFORMATIONS LÉGALES</summary>
           <ul>
             <li>
               <NavLink to="/mentions-legales">Mentions légales</NavLink>
@@ -111,7 +111,7 @@ function Footer () {
             <NavLink to="/expertises">Nos expertises</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact/FAQ</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>      
           </ul>
         </details>

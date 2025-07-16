@@ -12,7 +12,7 @@ function Contact () {
             children="Contactez-nous"
             />
             <ContactForm/>
-            <Footer/>
+            <Footer />
         </>
     )
 }

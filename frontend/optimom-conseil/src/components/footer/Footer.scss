@@ -1,6 +1,5 @@
 footer {
-    width: 100vw; 
-    margin-left: calc(-50vw + 50%);
+    width: 100%; 
 }
 
 .footer-desktop {
@@ -101,74 +100,70 @@ footer {
   /* Pour desktop */
   @media screen and (min-width: 768px) {
     .footer-desktop {
-        display: block; /* Visible sur Desktop */
         margin-top:50px;
-        background-color:#F9F8F7;
-        padding:10px;
-        color:#110902;
+        background-color: #b3b3b24a;
+        display:block;
+        text-align:left;
+        width:100%;
 
-        .logo_footer_desktop{
-            width:250px;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+      
+            li {
+              margin-bottom: 0.5rem;
+              color:#000;
+            }
+          }
+
+          h3 {
+            font-size: 1rem;
+            margin: 0;
+            color: #151f55;
+            height: 2.5rem;
+            line-height: 1.5rem;
+          }
+
+          a {
+            color: #000;
+            text-decoration: none;
+          }
+      
+        .footer-block-top {
+          display: flex;
+          justify-content: space-between;
+          align-items:flex-start;
+          padding:25px;
+
+          .footer-top {
+            width:28%;
+
+            .logo_footer_desktop {
+                width: 200px;
+                height: auto;
+              }
+          }
+      
+          
         }
 
-        .footer-desktop-logo-acces {
-            max-width:1280px;
-            margin:auto;
-            display:flex;
-            align-items: center;
-            justify-content: space-between;
-            text-align: left;                
-
-        }
-        
-        
-
-        .footer-lien {
-            max-width:1280px;
-            margin:auto;
+        .footer-block-bottom {
             display:flex;
             justify-content: space-between;
-            align-items: center;
-            
-            ul {
-                list-style:none;
-                padding:0;
-                text-align: left;
-
-
-                a {
-                    color:black;
-                }
-
-                a:hover {
-                    font-weight: bold;
-                    font-style: normal;
-                    font-display: swap;
-                }
-            }
-
-
-            .footer-desktop-liens-utiles {
-                .logo_insta-desktop {
-                    width:30px;
-                }
-            }
-            .footer-desktop-infos {
-
-               
-                h3 {
-                    text-align: left;
-                }
-            }
-        
+            align-items:flex-start;
+            padding:25px;
             
 
-
+            .footer-bottom {
+                width:28%;
+            }
         }
-
-        
-        
       }
+      
+      
+      
+
       
       .footer-mobile {
         display: none; /* Caché sur Desktop */

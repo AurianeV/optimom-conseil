@@ -8,7 +8,7 @@ function HomePage () {
         <>
             <Navbar/>
             <Background 
-            backgroundImage="/home_back.jpg"
+            backgroundImage="/background_accueil.png"
             children="Aide fiscale aux investissements outre-mer"
             />
             <section className="presentation_company">

@@ -9,7 +9,7 @@ function Equipe () {
         <>
             <Navbar/>
             <Background 
-            backgroundImage="/background_equipe.jpg"
+            backgroundImage="/background_equipe.png"
             children="Notre équipe"
             />
             <Team/>

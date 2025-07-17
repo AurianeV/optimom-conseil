@@ -8,11 +8,11 @@ function Contact () {
         <>
             <Navbar/>
             <Background
-            backgroundImage="/background_contact.jpg"
+            backgroundImage="/background_contact.png"
             children="Contactez-nous"
             />
             <ContactForm/>
-            <Footer />
+            <Footer/>
         </>
     )
 }

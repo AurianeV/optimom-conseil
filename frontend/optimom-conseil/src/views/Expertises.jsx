@@ -10,7 +10,7 @@ function Expertises () {
         <>
             <Navbar/>
             <Background
-            backgroundImage="/background_expertises.jpg"
+            backgroundImage="/background_expertises.png"
             children="Nos expertises"
             />
             <h2>Accompagnement et conseil des sociétés ultramarines</h2>
